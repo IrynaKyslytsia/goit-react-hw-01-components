@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types';
 import { StatItem } from 'components/StatItem/StatItem';
+import css from './StatList.module.css';
 
 export const StatList = ({ stats }) => {
-  console.log(stats)
     return (
-    <ul className="stat-list">
+    <ul className={css.stat_list}>
     {stats.map(({ id, label, percentage }) => (
-    <li key={id}
-    className="item">
+    <li key={id}>
       <StatItem
       label = {label}
       percentage = {percentage} 
