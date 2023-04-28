@@ -3,7 +3,5 @@
     gap: 24px;
     flex-direction: column;
     width: 600px;
-    list-style: none;
     margin: 200px auto;
-    padding: 0;
 }

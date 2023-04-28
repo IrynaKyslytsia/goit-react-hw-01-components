@@ -1,7 +1,3 @@
-p {
-    margin: 0;
-}
-
 .profile {
     width: 600px;
     margin-top: 60px;
@@ -29,9 +25,6 @@ p {
 .stats {
     display: flex;
     justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    padding: 0;
     background-color: rgb(211, 209, 209);
     border-top: 1px solid rgb(155, 150, 150);
     border-left: 1px solid rgb(155, 150, 150);
