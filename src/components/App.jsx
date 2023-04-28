@@ -19,7 +19,9 @@ export const App = () => {
     
     <Statistics 
     title="" 
-    stats={data} 
+    stats={data}
+    label={data.label}
+    percentage={data.percentage} 
     />
 
     <FriendList
