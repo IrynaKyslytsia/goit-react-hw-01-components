@@ -18,7 +18,7 @@ export const App = () => {
     />
     
     <Statistics 
-    title="" 
+    title={data.title} 
     stats={data}
     label={data.label}
     percentage={data.percentage} 
